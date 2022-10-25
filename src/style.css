@@ -1,0 +1,18 @@
+body{
+    background:#011923;
+
+}
+.places{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:12px;
+}
+.h1{
+    text-align: center;
+    color:#fff;
+}
+img{
+    width:400px;
+    height:150px;
+}
