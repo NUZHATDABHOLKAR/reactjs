@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clssses</title>
+  </head>
+  <body>
+    <script>
+      //example 1
+      //  class two{
+      //     constructor(name){
+      //         this.brand=name;
+      //     }
+      //  }
+      // const mycar=new two("ford")
+      // document.write(mycar.brand);
+
+      //example 2
+      //  class one{
+      //     constructor(name){
+      //         this.brand=name;
+      //     }
+      //     present() {
+      //     return 'I have a ' + this.brand;
+      //     }
+      //  }
+      //  const one1 = new one("ford car")
+      //  document.write(one1.present())
+
+      //example 3
+      class car {
+        constructor(name) {
+          this.brand = name;
+        }
+        present() {
+          return "i have this  car in my house brand :" + this.brand;
+        }
+      }
+      class Model extends car {
+        constructor(name, mod) {
+          super(name);
+          this.model = mod;
+        }
+        show() {
+          return (
+            this.present() +
+            "<br>" +
+            ",it is a something different " +
+            this.model
+          );
+        }
+      }
+      const mycar = new Model("ford", "Mustang");
+      document.write(mycar.show());
+    </script>
+  </body>
+</html>

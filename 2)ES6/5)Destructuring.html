@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project 1 (a)</title>
+  </head>
+  <body>
+    <div id="root">nuzu please try one more time dear</div>
+    <script>
+      function cal(a, b) {
+        const add = a + b;
+        const sub = a - b;
+        const mul = a * b;
+        const div = a / b;
+        return [add, sub, mul, div];
+      }
+      const [add, sub, mul, div] = cal(4, 4);
+
+      document.write("<p>Sum: " + add + "</p>");
+      document.write("<p>Difference " + sub + "</p>");
+      document.write("<p>Product: " + mul + "</p>");
+      document.write("<p>Quotient " + div + "</p>");
+    </script>
+  </body>
+</html>
