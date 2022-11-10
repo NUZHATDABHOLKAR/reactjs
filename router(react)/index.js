@@ -9,7 +9,8 @@ root.render(
     <div className="a3">
     <Navbar/>
     <App/>
-    </div>
+    </div>   
+    
     </BrowserRouter> </React.StrictMode>
 
 );
