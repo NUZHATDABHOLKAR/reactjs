@@ -2,7 +2,6 @@
 small  assignment
 ## Author
 DABHOLKAR NUZHAT
-
 ## increment + decrement (using state)
 
 ## mini project 
