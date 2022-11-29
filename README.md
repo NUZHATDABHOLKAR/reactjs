@@ -13,4 +13,4 @@ DABHOLKAR NUZHAT
 [React router basic](https://routernd.netlify.app/)
 
 ## restaurant (menu card ) project
-[project](https://menucard1.netlify.app/)
+[project](https://menucard2.netlify.app/)
