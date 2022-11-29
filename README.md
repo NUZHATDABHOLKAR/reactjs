@@ -14,3 +14,6 @@ DABHOLKAR NUZHAT
 
 ## restaurant (menu card ) project
 [project](https://menucard4.netlify.app/)
+
+## basic api
+[project](https://fetchapi1.netlify.app/)
